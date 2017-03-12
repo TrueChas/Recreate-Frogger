@@ -1,0 +1,29 @@
+Outline
+
+Recreating Frogger
+
+Visual assets and game loop engine will be provided
+Need to add a number of entities
+	player characters
+	enemies
+Player character should not be able to move off the board.
+Game should reset when player character hits an enemy.
+Game should reset when player character reaches water.
+
+Player character
+	Player character
+	controlled by wasd or arrows
+	moves one space at a time
+	"dies" if touched by a bug, causing reset
+Enemy
+	Bug
+	moves across screen at variable speed
+	speed is decided when enemy object is created
+	"kills" player character by touching them
+	does not disappear when player character touches them
+	Only shows up on brick rows
+Board
+	Starts as grass - 2 spaces tall
+	bricks - 3 spaces tall
+	end line is water
+	5 spaces wide
